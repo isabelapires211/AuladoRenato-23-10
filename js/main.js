@@ -11,8 +11,8 @@ if ('serviceWorker' in navigator) {
       }
     });
   } 
-   const apikey= "";
-   let url='' 
+   const apikey= "e531a884462e463aa1ccd0b3178ddcef";
+   let url =`https://newsapi.org/v2/top-headlines?country-br&apikey=${apikey}`
    const main = document.querySelector('main')
    
    async function postNews(){
